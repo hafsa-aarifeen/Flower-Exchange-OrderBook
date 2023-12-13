@@ -3,7 +3,7 @@
 
 using namespace std;
 
-enum class OrderType { BUY, SELL };
+enum class OrderType : int { BUY = 1, SELL = 2 };
 
 class Order {
 public:
